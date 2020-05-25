@@ -89,11 +89,11 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'Bro Listen na',
+    text: 'Listen naaa',
     image: 'https://i.imgur.com/5lhCbGv.jpg',
     options: [
       {
-        text: 'Ya say',
+        text: 'Yeah say',
         nextText: 3
       },
       {
