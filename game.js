@@ -12,7 +12,7 @@ function showTextNode(textNodeIndex) {
 
   var imagesDatabase = {
     '1': src="images/images.jpeg",
-    '2': src="images/sadbro.png",
+    '2': src="images/bs1.jpg",
     '3':src="images/bs1.jpg",
     '4': src="images/thechoices.png",
     '5': src="images/coffin.jpg",
