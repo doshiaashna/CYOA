@@ -90,7 +90,7 @@ const textNodes = [
   {
     id: 1,
     text: 'Heyy whatchaa doingggggg??',
-    image: 'https://i.imgur.com/5lhCbGv.jpg',
+    image: 'https://statics.sportskeeda.com/editor/2018/12/235c4-15444554699659-500.jpg',
     options: [
       {
         text: 'Nothing, just bored',
@@ -105,7 +105,7 @@ const textNodes = [
   {
     id: 2,
     text: ':(',
-    image: 'https://i.pinimg.com/originals/09/ef/32/09ef32e0bae53a4a268ae7e82dd2a9d2.png',
+    image: 'https://img.pngio.com/puss-n-boots-sad-face-gifs-tenor-pus-in-boots-sad-face-240_240.gif',
     options: [
       {
         text: 'Okay say',
