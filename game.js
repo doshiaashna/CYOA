@@ -89,15 +89,15 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'Listen naaa',
+    text: 'Heyy whatchaa doingggggg??',
     image: 'https://i.imgur.com/5lhCbGv.jpg',
     options: [
       {
-        text: 'Yeah say',
+        text: 'Nothing, just bored',
         nextText: 3
       },
       {
-        text: 'No',
+        text: 'IM BUSY',
         nextText: 2
       }
     ]
@@ -118,7 +118,7 @@ const textNodes = [
     text: 'Wanna go on an adventure with me?',
     options: [
       {
-        text: 'Hell Yea',
+        text: 'Yesss take me',
         nextText: 4
       },
     ]
