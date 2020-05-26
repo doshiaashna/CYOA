@@ -161,28 +161,28 @@ const textNodes = [
   },
   {
     id: 6,
-    text: 'Time to explore the island. While exploring you come across a tiger. Oh god.',
+    text: 'Time to follow the directions. While walking you come across a zombieg. Oh god.',
     options: [
       {
-        text: 'Attack it with your sword',
-        requiredState: (currentState) => currentState.sword,
+        text: 'Attack them with your hammer',
+        requiredState: (currentState) => currentState.hammer,
         nextText: 7
       },
       {
-        text: 'He would look cool with a scarf tbh',
-        requiredState: (currentState) => currentState.scarf,
+        text: 'He must be hungry,lets give him the pan',
+        requiredState: (currentState) => currentState.pan,
         nextText: 8
       },
       {
-        text: 'R U N',
-        requiredState: (currentState) => currentState.shoes,
+        text: 'Give him candies in return to spare your life',
+        requiredState: (currentState) => currentState.candies,
         nextText: 9
       }
     ]
   },
   {
     id: 7,
-    text: 'WHAT HAVE YOU DONE. THE TIGER HAS SUPER SENSES AND HEARD YOU MOVE. THE TIGER GOT ANGRY AND KILLED YOU. CMON MAN',
+    text: 'WHAT DO YOU THINK OF YOURSELF. THE ZOMBIE WAS SUPER HUNGRY. THE ZOMBIE GOT HUNGRY AND KILLED YOU. CMON MAN',
     options: [
       {
          text: 'Restart',
@@ -193,11 +193,11 @@ const textNodes = [
   },
   {
     id: 8,
-    text: 'It does look cool on the tiger. The tiger agrees and lets you pass. He gives you a sword he found after some dumb guy tried to kill him.',
+    text: 'Turns out it did want to fry something on the pan. The zombie is happy and lets you go ahead. He gives you a hammer he found after some dumb guy tried to kill him.',
     options: [
       {
-        text: 'Pat the tiger',
-        setState: { sword: true },
+        text: 'Fist bump the zombie',
+        setState: { hammer: true },
         
         nextText: 10
       }
@@ -205,7 +205,7 @@ const textNodes = [
   },
   {
     id: 9,
-    text: 'Look at Bolt over here tryna outrun a tiger. You died',
+    text: 'Look at candyman over here, trying to bribe a zombie with candies.He is not a kid. You died',
     options: [
       {
         text: 'Restart',
@@ -215,50 +215,50 @@ const textNodes = [
   },
   {
     id: 10,
-    text: 'Tiger is now your fren. He takes you to his home and gives you some rad shoes. Someone tried to outrun him lmao',
+    text: 'The zombie is now your friend. He takes you to his spot and gives you some candies. Someone tried to bribe him with candies. lmao',
     
     options: [
       {
-        text: 'Time to explore more',
-        setState: { shoes: true },
+        text: 'Time to walk ahead',
+        setState: { candies: true },
         nextText: 11
       },
     ]
   },
   {
     id: 11,
-    text: 'You come across a cute lil bee.',
+    text: 'You come across your frenemy who has turned into a zombie.',
     options: [
     {
-      text: 'Attack it with your sword',
-      requiredState: (currentState) => currentState.sword,
+      text: 'Attack it with your hammer',
+      requiredState: (currentState) => currentState.hammer,
       nextText: 12
     },
     {
-      text: 'He would look cool with a scarf tbh',
-      requiredState: (currentState) => currentState.scarf,
+      text: 'He must be hungry lets give him the pan',
+      requiredState: (currentState) => currentState.pan,
       nextText: 13
     },
     {
-      text: 'I hate bees imma run',
-      requiredState: (currentState) => currentState.shoes,
+      text: 'Give him candies to spare your life',
+      requiredState: (currentState) => currentState.candies,
       nextText: 14
     }
     ]
   },
   {
     id: 12,
-    text: 'HELL YEAH BUDDY. Your sword turns into a fire sword or whatever that is and you burn that little shit alive. The other bees get scared and run away. Good job',
+    text: 'HELL YEAH BUDDY. He tries to eat you up but somehow your hammer turns into a lightning hammer or whatever that is and you burn that little shit alive. Good job',
     options: [
       {
-        text: 'Aight who is next.',
+        text: 'Alright lets go ahead.',
         nextText: 16
       }
     ]
   },
   {
     id: 13,
-    text: 'BRO YOU CANNOT JUST PUT A SCARF ON EVERYTHING. THE BEES HATE IT AND KILL YOU',
+    text: 'BRO YOU CANNOT JUST ASSUME THAT EVERY ZOMBIE WANTS TO COOK. YOUR FRENEMY HATES IT AND KILLS YOU',
     options: [
       {
         text: 'Restart',
@@ -268,7 +268,7 @@ const textNodes = [
   },
   {
     id: 14,
-    text: 'THERE WERE A LOT OF BEES HIDING. YOU COULD NOT OUTRUN THEM ALL.',
+    text: 'YOUR FRENEMY HATES CANDIES. HE CALLED OUT HIS ZOMBIE FRIENDS AND YOU COULD NOT OUTRUN THEM ALL.',
     options: [
       {
         text: 'Restart',
@@ -278,21 +278,21 @@ const textNodes = [
   },
   {
     id: 16,
-    text: 'You come across a flock of sheep. They just chillin',
+    text: 'You come across some kid zombies. They just chillin and playing',
     options: [
     {
-      text: 'Sword time',
-      requiredState: (currentState) => currentState.sword,
+      text: 'Hammer time',
+      requiredState: (currentState) => currentState.hammer,
       nextText: 17
     },
     {
-      text: 'Scarf time',
-      requiredState: (currentState) => currentState.scarf,
+      text: 'Pan time',
+      requiredState: (currentState) => currentState.pan,
       nextText: 18
     },
     {
-      text: 'Beep beep imma run',
-      requiredState: (currentState) => currentState.shoes,
+      text: 'Candyman time',
+      requiredState: (currentState) => currentState.candies,
       nextText: 19
     }
 
@@ -300,7 +300,7 @@ const textNodes = [
   },
   {
     id: 17,
-    text: 'WHY WOULD YOU EVEN TRY THAT. The sheep were carrying guns all along. Anyway They started blasting. Mess with the flock and you get the glock. You lose',
+    text: 'WHY WOULD YOU EVEN TRY TO KILL KIDS. Anyways they are much more dangerous than adult zombies. They eat up your brains. Mess with the kids and you get your guts spilt. You lose',
     options: [
       {
         text: 'Beep',
@@ -310,7 +310,7 @@ const textNodes = [
   },
   {
     id: 18,
-    text: 'Sheep do not need your scarf to look cooler. Mess with the flock you get the glock',
+    text: 'Well did you epect the kids to cook food on their own. Mess with the kids you get your guts spilt',
     options: [
       {
         text: 'Restart',
@@ -320,11 +320,11 @@ const textNodes = [
   },
   {
     id: 19,
-    text: 'Nice call mate. The flock was getting annoyed of you but they liked your sneakers. Now they think you are cool',
+    text: 'Nice call candyman. The kids were getting annoyed of you but they liked your candies. Now they think you are cool',
     options: [
       {
         text: 'I think they are cool too.',
-        setState: { glasses: true },
+        setState: { crown: true },
         nextText: 20
       }  
       
@@ -332,16 +332,16 @@ const textNodes = [
   },
   {
     id: 20,
-    text: 'You are now friends with the sheep. They give you some cool glasses. Time to explore Again ',
+    text: 'You are now friends with the kids. They give you the Queen s crown. Time to walk ahead ',
     options: [
       {
-        text: 'Go into the cave',
+        text: 'Take the shortcut',
         nextText: 25
       },
       
       
       {
-        text: 'Go right towards the town',
+        text: 'Go towards the post office',
         nextText: 21
       }  
       
@@ -349,15 +349,15 @@ const textNodes = [
   },
   {
     id: 21,
-    text: '"Greetings! We are looking for a new ruler. Someone smart and cool. Come back when you have something cool to show us. ',
+    text: '"Greetings! We have a lot of survivors staying here. Come back when you have something valuable to contribute. ',
     options: [
       {
         text: 'Go back to the start',
         nextText: 24
       },
       {
-        text: 'Put on the glasses',
-        requiredState: (currentState) => currentState.glasses,
+        text: 'Put on the fancy crown',
+        requiredState: (currentState) => currentState.crown,
         nextText: 22
       },
 
@@ -366,67 +366,67 @@ const textNodes = [
   },
   {
     id: 22,
-    text: 'Holy shit, those are some cool glasses you got there. But are you smart enough to answer my riddles?',
+    text: 'Holy shit, you have the Queen s crown. But are you smart enough to answer my riddles?',
     options: [
       {
-        text: 'Hell yea',
+        text: 'Pfft Obviously',
         nextText: 23
       }  
     ]
   },
   {
     id: 23,
-    text: 'Pick me up and scratch my head. I’ll turn red and then black. What am I? ',
+    text: 'Voiceless it cries, Wingless it flutters, Mouthless it bites. What am I? ',
     options: [
       {
-        text: 'Jamal',
+        text: 'Johnny',
         nextText: 26
       },
       {
-        text: 'A matchstick',
+        text: 'Wind',
         nextText: 27
       },
       {
-        text: 'A chameleon',
+        text: 'Lizard',
         nextText: 26
       }
     ]
   },
   {
     id: 24,
-    text: 'Time to explore the island. Which way do you want to go?',
+    text: 'Time to leave the basement. You have a map that leads you to the safe zone. Which way do you want to go?',
     options: [
 
       {
-        text: 'Ahead towards the jungle',
+        text: 'Follow the directions on the map',
         nextText: 6
       },
       {
-        text: 'Left towards the cave',
+        text: 'Take a shortcut to reach the safe zone',
         nextText: 25
       },
       {
-        text: 'Right towards the town',
+        text: 'Right towards the post office',
         nextText: 21
       }
     ]
   },
   {
     id: 25,
-    text: 'There is a cave ahead. There seems to be something scary inside. Maybe you should wait a bit before going in ',
+    text: 'There are a few zombies ahead. Maybe you should wait a bit in the shop across ',
     options: [
     {
       text: 'Go back',
       nextText: 24
     },
     {
-      text: 'Super sword time',
-      requiredState: (currentState) => currentState.supersword,
+      text: 'Super hammer time',
+      requiredState: (currentState) => currentState.superhammer,
       nextText: 33
     },
     {
       text: 'I will just call my new friends for help',
-      requiredState: (currentState) => currentState.glasses,
+      requiredState: (currentState) => currentState.crown,
       nextText: 37
     }
 
@@ -444,18 +444,18 @@ const textNodes = [
   },
   {
     id: 27,
-    text: 'Owow smart. Ok next one. What room do ghosts avoid? ',
+    text: 'Ohwow smartypants. Ok next one. If your uncle s sister is not your aunt, what relation is she to you?',
     options: [
       {
-        text: 'Classroom',
+        text: 'Your aunt',
         nextText: 28
       },
       {
-        text: 'Room of prayer',
+        text: 'Your sister',
         nextText: 28
       },
       {
-        text: 'Living room',
+        text: 'Your mother',
         nextText: 29
       }
     ]
@@ -472,7 +472,7 @@ const textNodes = [
   },
   {
     id: 29,
-    text: 'Last one. How cool is Ishan?',
+    text: 'Last one. How cool is Aashna?',
     options: [
       {
         text: 'Very cool',
@@ -490,28 +490,28 @@ const textNodes = [
   },
   {
     id: 30,
-    text: 'Hahahah unless?',
+    text: 'Whhaaaattttt? :(',
     options: [
       {
-        text: 'Smh Ishan',
+        text: 'Smh Aashna',
         nextText: 29
       }  
     ]
   },
   {
     id: 31,
-    text: 'Amazing! Genius! You are fit to be our new ruler. But a ruler should be brave as well. There is a cave nearby where a dragon lives. He burns our crops and eats our people. Can you defeat him for us? ',
+    text: 'Amazing! Genius! You can now come inside and seek refuge. The shortcut towards the safe zone has a bunch of zombies surrounded. Can you get through them? ',
     options: [
       {
         text: 'Uh sure',
-        setState: { supersword: true },
+        setState: { superhammer: true },
         nextText: 32
       }, 
     ]
   },
   {
     id: 32,
-    text: 'Brilliant! I have modified your sword and made it stronger! You will have to answer a math question to charge it. Go slay the dragon!',
+    text: 'Brilliant! I have modified your hammer and made it stronger! You will have to answer a math question to charge it. Go slay the zombies!',
     options: [
       {
         text: 'Leggo',
@@ -521,25 +521,25 @@ const textNodes = [
   },
   {
     id: 33,
-    text: 'The dragon emerges. He is angry! You activate your sword. What is 21 x 7? ',
+    text: 'The hungry zomies are all over the avenue. They look monstrous! You activate your hammer. What is 51 x 3? ',
       options: [
         {
-          text: '161! Slaying time!',
+          text: '113! Slaying time!',
           nextText: 34
         },
         {
-          text: '147! Fear me monster!',
+          text: '153! Fear me monster!',
           nextText: 36
         },
         {
-          text: '2 lmao just kill me i cant math',
+          text: '3 Lmao just kill me i cant math',
           nextText: 35
         }
       ]
     },
     {
       id: 34,
-      text: 'bro you got burned alive. Cmon smh. You lose',
+      text: 'bro you got eaten alive. Cmon smh. You lose',
       options: [
         {
           text: 'Restart',
@@ -549,30 +549,30 @@ const textNodes = [
     },
     {
       id: 35,
-      text: 'You start to run away as the math was hard. Just as the dragon is about to get you, BANG. The dragon is shot by the sheep you met earlier. The tiger pounces on the dragon and tries to finish it off, but the dragon uses his fire to burn one of the sheep. Ogod. The dragon died and you are the new ruler of the island. BUT AT WHAT COST? [WIN ENDING 1 OF 3]',
+      text: 'You start to run away as the math was hard. Just as tthe zombies are about to get you, BANG. There is a man wearing a cowboy hat on a horse. He buys you some time to escape. While escaping when you look back you see the kids trying to fight off the zombies for you. The man gets eaten up and the kids too are wounded. Ogod. You escape sucessfully and reach the safe zone. BUT AT WHAT COST? [WIN ENDING 1 OF 3]',
       options: [
         {
-          text: 'Aight Imma try again',
+          text: 'Let me try again',
           nextText: -1
         }  
       ]
     },
     {
       id: 36,
-      text: 'The sword powers up. The dragon is no match for your might and intellect. He is defeated and you become the new ruler of the island. You rule with your friends, the tiger and the flock of sheep. Happy Happy. [WIN ENDING 2 OF 3] ',
+      text: 'The hammer powers up. The zombies are no match for your might and intellect. You reach the safe zone. Later you develop a vaccine and SAVE THE WORLD. Humans now coexist with zombies [WIN ENDING 2 OF 3] ',
       options: [
         {
-          text: 'Aight Imma try again',
+          text: 'Lets try again',
           nextText: -1
         }  
       ]
     },
     {
       id: 37,
-      text: 'You enter the cave with the tiger and the glockflock. THERE IS A DRAGON THERE. The sheep open fire on it but it burns away 2 of them. You attack with your sword but it does almost no damage. The tiger sacrifices himself to save you. The last sheep shoots the dragon and kills him. But he does not want to live in a world without the other sheep, so he kills himself. You should have gone in more prepared. Congrats, dragon slayer. The villagers from the town next to the cave appoint you the ruler of the island. You won, but can you even call that a Victory? [WIN ENDING 3 of 3] ',
+      text: 'You enter the cave with your friends. THERE IS A CROWD OF HIDEOUSWRETCHED ZOMBIES THERE. The kids try to eat them but it kills away 2 of them. You attack them with your hammer but it does almost no damage. Your zombie friend sacrifices himself to save you. The last kid and you kill them. But the kid does not want to live in a world without the other kids, so he kills himself. You should have gone in more prepared. Congrats, zombie slayer. You reach the safe zone.You won, but can you even call that a Victory? [WIN ENDING 3 of 3] ',
       options: [
         {
-          text: 'Aight Imma try again',
+          text: 'Let me try again',
           nextText: -1
         }  
       ]
