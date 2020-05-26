@@ -14,7 +14,7 @@ function showTextNode(textNodeIndex) {
     '1': src="images/images.jpeg",
     '2': src="images/sad.gif",
     '3':src="images/survive.png",
-    '4': src="images/thechoices.png",
+    '4': src="images/choice.jpg",
     '5': src="images/coffin.jpg",
     '6': src="images/tiger.jpg",
     '7': src="images/coffin.jpg",
