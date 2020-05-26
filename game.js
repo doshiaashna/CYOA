@@ -11,7 +11,7 @@ function startGame() {
 function showTextNode(textNodeIndex) {
 
   var imagesDatabase = {
-    '1': src="images/mine.gif",
+    '1': src="images/immages.jpeg",
     '2': src="images/sadbro.png",
     '3':src="images/bs1.jpg",
     '4': src="images/thechoices.png",
