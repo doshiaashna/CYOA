@@ -125,22 +125,22 @@ const textNodes = [
   },
   {
     id: 4,
-    text: 'Imagine you are on an island. You were on a ship and it got rekt and now you are on the island somehow. It has like lions and tigers and other animals. You managed to grab one item from the ship before it got rekt. Which one is it?',
+    text: 'Imagine that it has been 5yrs since the outbreak of the zombie virusand you have survived somehow in the basement but now you need to go to the safe zone. You pack some food and water. Now there is space for only on item more. Which one do you choose?',
     options: [
 
       {
-        text: 'A badass sword',
-        setState: { sword: true },
+        text: 'A badass hammer',
+        setState: { hammer: true },
         nextText: 24
       },
       {
-        text: 'A cool looking scarf thingy',
-        setState: { scarf: true },
+        text: 'A pan thingy',
+        setState: { pan: true },
         nextText: 24
       },
       {
-        text: 'Some rad sneakers',
-        setState: { shoes: true },
+        text: 'Some candies',
+        setState: { candies: true },
         nextText: 24
       },
       {
@@ -151,7 +151,7 @@ const textNodes = [
   },
   {
     id: 5,
-    text: 'WOW WE GOT A SMARTY PANTS OVER HERE. You grow up to become the President of the World with your sheer intellect and wit. But Modiji gets mad and kills you with a Bazzuka. You blithering idiot. You lose.',
+    text: 'WOW WE GOT A SMARTASS OVER HERE. You grow up to become powerful person with your sheer smartness and wit. But one of your enemy gets mad and kills you with a Bazzuka. You die. You lose.',
     options: [
       {
         text: 'Restart',
