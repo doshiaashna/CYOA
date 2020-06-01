@@ -125,7 +125,7 @@ const textNodes = [
   },
   {
     id: 4,
-    text: 'Imagine that it has been 5yrs since the outbreak of the zombie virusand you have survived somehow in the basement but now you need to go to the safe zone. You pack some food and water. Now there is space for only on item more. Which one do you choose?',
+    text: 'Imagine that it has been 5yrs since the outbreak of the zombie virus and you have survived somehow in the basement but now you need to go to the safe zone. You pack some food and water. Now there is space for only on item more. Which one do you choose?',
     options: [
 
       {
@@ -161,7 +161,7 @@ const textNodes = [
   },
   {
     id: 6,
-    text: 'Time to follow the directions. While walking you come across a zombieg. Oh god.',
+    text: 'Time to follow the directions. While walking you come across a zombie. Oh god.',
     options: [
       {
         text: 'Attack them with your hammer',
